@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selamat Datang di Google+</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom font for a clean look */
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-br from-blue-500 to-purple-600 min-h-screen flex items-center justify-center p-4">
+    <div class="bg-white rounded-xl shadow-2xl p-8 md:p-12 max-w-2xl w-full text-center transform hover:scale-105 transition-transform duration-300 ease-in-out">
+        <h1 class="text-4xl md:text-5xl font-extrabold text-gray-900 mb-6 leading-tight">
+            Selamat Datang di <span class="text-blue-600">Google+</span>!
+        </h1>
+        <p class="text-lg md:text-xl text-gray-700 mb-8 leading-relaxed">
+            Kami sangat senang Anda bergabung dengan komunitas kami! Di Google+, kami hadir untuk menghubungkan Anda dengan orang-orang dan hal-hal yang paling Anda pedulikan.
+        </p>
+
+        <div class="text-left mb-8 space-y-4">
+            <h2 class="text-2xl md:text-3xl font-bold text-gray-800 mb-4">Apa yang Bisa Anda Lakukan di Google+?</h2>
+            <ul class="list-disc list-inside text-gray-600 text-base md:text-lg space-y-2">
+                <li><strong class="text-gray-800">Terhubung dengan Teman dan Keluarga:</strong> Jaga silaturahmi dengan orang-orang terdekat Anda melalui postingan, foto, dan video.</li>
+                <li><strong class="text-gray-800">Temukan Komunitas Baru:</strong> Jelajahi minat Anda dan bergabunglah dengan komunitas yang memiliki hobi atau topik yang sama. Dari fotografi hingga memasak, ada tempat untuk semua orang!</li>
+                <li><strong class="text-gray-800">Bagikan Momen Terbaik Anda:</strong> Unggah foto dan video berkualitas tinggi, tulis pemikiran Anda, dan bagikan pengalaman Anda dengan audiens yang Anda pilih.</li>
+                <li><strong class="text-gray-800">Ikuti Topik yang Anda Suka:</strong> Dapatkan berita terbaru dan konten menarik dari sumber yang Anda ikuti, disesuaikan dengan minat Anda.</li>
+                <li><strong class="text-gray-800">Berinteraksi dengan Konten:</strong> Berikan +1, komentar, dan bagikan postingan yang Anda anggap menarik.</li>
+            </ul>
+        </div>
+
+        <p class="text-lg md:text-xl text-gray-700 mb-10 leading-relaxed">
+            Google+ dirancang untuk menjadi tempat di mana Anda dapat menjadi diri sendiri, berbagi dengan bebas, dan menemukan inspirasi.
+        </p>
+
+        <h2 class="text-2xl md:text-3xl font-bold text-gray-800 mb-6">Siap untuk Memulai?</h2>
+
+        <!-- Join Now Button -->
+        <button onclick="alert('Terima kasih telah bergabung! Fitur ini hanya contoh.')"
+                class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-full text-xl md:text-2xl shadow-lg transform hover:scale-105 transition-all duration-300 ease-in-out focus:outline-none focus:ring-4 focus:ring-blue-300 focus:ring-opacity-75">
+            Join Now!
+        </button>
+    </div>
+</body>
+</html
